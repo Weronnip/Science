@@ -5,6 +5,15 @@
     font-size: 20px;
 }
 
+.item-bth {
+    color: #928c8c;
+    transition: ease-in-out 0.3s;
+}
+
+.item-bth:hover {
+    color: rgb(15, 15, 15);
+}
+
 .footer {
     top: 850px;
     height: 926px;
