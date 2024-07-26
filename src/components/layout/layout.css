@@ -1,0 +1,20 @@
+.item {
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #928c8c;
+  font-size: 20px;
+}
+
+.footer {
+  top: 850px;
+  height: 926px;
+  width: 100% auto;
+  position: relative;
+  background-image: url(../../assets//Vector.png);
+}
+.footer .img-form {
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 530px;
+  position: absolute;
+}/*# sourceMappingURL=layout.css.map */

@@ -1,0 +1,97 @@
+.container {
+  z-index: 99;
+  position: relative;
+}
+.container .title-form {
+  top: 125px;
+  left: 130px;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  font-style: italic;
+}
+.container .form-push {
+  top: 130px;
+  left: 130px;
+  width: 580px;
+  height: 600px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+.container .input-date {
+  margin: auto;
+  width: 480px;
+  height: 50px;
+  margin: 20px;
+  bottom: 75px;
+  padding: 15px;
+  outline: none;
+  font-size: 18px;
+  position: relative;
+  border: 2px solid rgb(176, 176, 176);
+}
+.container .floor {
+  bottom: 80px;
+  font-size: 23px;
+  position: relative;
+  color: rgb(176, 176, 176);
+}
+.container .gander-check {
+  bottom: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.container .select-choice {
+  margin: auto;
+  width: 480px;
+  height: 50px;
+  margin: 20px;
+  bottom: 90px;
+  outline: none;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  border: 2px solid rgb(176, 176, 176);
+}
+.container .bth-push {
+  width: 480px;
+  height: 50px;
+  bottom: 70px;
+  color: white;
+  position: relative;
+  background-color: #2F5DD3;
+}
+.container .line-to-text {
+  width: 400px;
+  height: 20px;
+  display: flex;
+  margin: auto;
+}
+.container .log-in-yandex {
+  top: 40px;
+  width: 180px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: rgb(255, 62, 62);
+}
+.container .log-in-vk {
+  top: 40px;
+  left: 30px;
+  width: 180px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: rgb(86, 122, 255);
+}
+.container .icon {
+  color: white;
+  font-size: 25px;
+}/*# sourceMappingURL=form.css.map */

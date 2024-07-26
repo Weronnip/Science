@@ -1,0 +1,43 @@
+.calendar {
+  @apply w-[450px] m-0 border-solid overflow-hidden shadow-md relative left-32 top-32;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2F5DD3;
+  color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.calendar-body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 10px;
+}
+
+.calendar-weekday,
+.calendar-day {
+  text-align: center;
+  padding: 10px;
+}
+
+.calendar-day {
+  cursor: pointer;
+  margin: 5px;
+}
+
+.calendar-day:hover {
+  background-color: #f0f0f0;
+}
+
+.calendar-day.selected {
+  background-color: #2F5DD3;
+  color: white;
+}
+
+.calendar-day.empty {
+  background-color: transparent;
+}/*# sourceMappingURL=calendar.css.map */
