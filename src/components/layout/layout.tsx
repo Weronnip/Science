@@ -1,7 +1,7 @@
 import { InputPushDate } from "../form_input/push_date";
-import img from "../../assets/Other 01.png"
+import img from "../../assets/Other 01.png";
 import logo from "../../assets/logo.png";
-import "./layout.css"
+import "./layout.css";
 
 export function HeadSite() {
     return (
