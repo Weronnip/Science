@@ -1,4 +1,4 @@
-import "./blockStyle/block.css"
+import "./style_content/block.css"
 
 export function BlockContent() {
 
