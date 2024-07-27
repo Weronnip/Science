@@ -20,8 +20,8 @@ export function InputPushDate() {
                     <button className="bth-push">Подать заявку</button>
                     <div className="log-in-other">
                         <hr className="line-to-text" />
-                        <h4 className="text-center relative bottom-[32px] z-[99] text-gray-500 px-6">Другой способ</h4>
-                        <div className="grid grid-cols-2 relative bottom-10">
+                        <h4 className="line-title">Другой способ</h4>
+                        <div className="nav-login-bth">
                             <button className="log-in-yandex"><FaYandex className="icon"/></button>
                             <button className="log-in-vk"><FaVk className="icon"/></button>
                         </div>

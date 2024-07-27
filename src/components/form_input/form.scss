@@ -84,6 +84,23 @@
     margin: auto;
   }
 
+  .line-title {
+    z-index: 99;
+    bottom: 32px;
+    color: #6b7280;
+    text-align: center;
+    position: relative;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .nav-login-bth {
+    bottom: 40px;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .log-in-yandex {
       top: 40px;
       width: 180px;
@@ -110,3 +127,84 @@
     font-size: 25px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .title-form {
+    top: 100px;
+    left: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .form-push {
+    top: 20px;
+    left: 10px;
+    width: 280px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .input-date {
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .floor {
+    bottom: 40px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .gander-check {
+    bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .select-choice {
+    width: 240px;
+    height: 40px;
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .bth-push {
+    width: 240px;
+    height: 40px;
+    bottom: 30px;
+    font-size: 16px;
+  }
+
+  .line-to-text {
+    width: 240px;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .line-title {
+    bottom: 20px;
+    font-size: 14px;
+    padding: 0 1rem;
+  }
+
+  .nav-login-bth {
+    bottom: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .log-in-yandex,
+  .log-in-vk {
+    top: 20px;
+    width: 140px;
+    padding: 5px;
+    margin: 5px auto;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+}
+

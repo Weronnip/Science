@@ -48,8 +48,8 @@ export function CalendarEvents({onDateChange}: CalendarProps) {
     };
     return (
        <>
-          <h2 className="text-xl top-28 mx-36 relative">Мероприятия на {currentDate.toLocaleString('default', {day: '2-digit'})} {currentDate.toLocaleString('default', {month: 'long'})}</h2>
           <div className="calendar">
+          <h3 className="title-events">Мероприятия на {currentDate.toLocaleString('default', {day: '2-digit'})} {currentDate.toLocaleString('default', {month: 'long'})}</h3>
               <div className="calendar-header">
                 <button onClick={() => setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() - 1))}>
                   ‹

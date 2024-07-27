@@ -1,3 +1,32 @@
+.header-site {
+    width: 100%;
+    height: 96px;
+    position: relative;
+    background-color: white;
+}
+
+.nav-items {
+    top: 16px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo {
+    right: 150px;
+    position: relative;
+}
+
+.item-tel {
+    top: 5px;
+    left: 150px;
+    color: #1D4ED8;
+    font-size: 24px;
+    line-height: 32px;
+    position: relative;
+}
+
 .item {
     padding-left: 10px;
     padding-top: 10px;
@@ -19,7 +48,7 @@
     height: 926px;
     width: 100% auto;
     position: relative;
-    background-image: url(../../assets//Vector.png);
+    background-image: url(../../assets/Vector.png);
 
     .img-form {
         margin: auto;
@@ -29,3 +58,47 @@
     }
 }
 
+@media (max-width: 320px) {
+    .header-site {
+        height: auto; /* Высота подстраивается под содержимое */
+        padding: 10px; /* Добавляем отступы */
+    }
+
+    .nav-items {
+        flex-direction: column; /* Вертикальное расположение */
+        align-items: flex-start; /* Выровнять по началу */
+        padding: 0; /* Убираем верхний отступ */
+    }
+
+    .img-logo {
+        right: 0; /* Убираем правый отступ */
+        margin-bottom: 10px; /* Добавляем нижний отступ */
+    }
+
+    .item-tel {
+        left: 0; /* Убираем левый отступ */
+        font-size: 18px; /* Уменьшаем размер шрифта */
+        line-height: 24px; /* Уменьшаем высоту строки */
+        margin-bottom: 10px; /* Добавляем нижний отступ */
+    }
+
+    .item {
+        padding-left: 5px; /* Уменьшаем отступ слева */
+        padding-top: 5px; /* Уменьшаем отступ сверху */
+        font-size: 16px; /* Уменьшаем размер шрифта */
+    }
+
+    .footer {
+        top: auto; /* Сброс позиции */
+        height: auto; /* Высота подстраивается под содержимое */
+        padding: 20px; /* Добавляем отступы */
+    }
+
+    .img-form {
+        margin-top: 20px; /* Уменьшаем верхний отступ */
+        margin-left: 0; /* Сбрасываем левый отступ */
+        position: static; /* Относительное позиционирование */
+        display: block; /* Блочное отображение */
+        width: 100%; /* Ширина 100% */
+    }
+}

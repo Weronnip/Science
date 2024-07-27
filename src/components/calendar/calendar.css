@@ -1,8 +1,15 @@
 .calendar {
-  @apply w-[450px] m-0 border-solid overflow-hidden shadow-md relative left-32 top-32;
+  top: 182px;
+  margin: 0;
+  left: 128px;
+  width: 450px;
+  overflow: hidden;
+  border-style: solid;
+  position: relative;
+  box-shadow: 2px 3px 4px black;
+  filter: drop-shadow(10px 10px 10px 10px rgba(58, 58, 58, 0.717));
 }
-
-.calendar-header {
+.calendar .calendar-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,33 +18,59 @@
   color: white;
   border-bottom: 1px solid #ccc;
 }
-
-.calendar-body {
+.calendar .title-events {
+  left: 25%;
+  font-size: 20px;
+  position: relative;
+}
+.calendar .calendar-body {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   padding: 10px;
 }
-
-.calendar-weekday,
-.calendar-day {
+.calendar .calendar-weekday,
+.calendar .calendar-day {
   text-align: center;
   padding: 10px;
 }
-
-.calendar-day {
+.calendar .calendar-day {
   cursor: pointer;
-  margin: 5px;
+  margin: 10px;
 }
-
-.calendar-day:hover {
+.calendar .calendar-day:hover {
   background-color: #f0f0f0;
 }
-
-.calendar-day.selected {
+.calendar .calendar-day.selected {
   background-color: #2F5DD3;
   color: white;
 }
-
-.calendar-day.empty {
+.calendar .calendar-day.empty {
   background-color: transparent;
+}
+@media screen and (max-width: 320px) {
+  .calendar {
+    top: 100px;
+    left: 10px;
+    width: 300px;
+  }
+  .calendar .calendar-header {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .calendar .title-events {
+    left: 10%;
+    font-size: 16px;
+  }
+  .calendar .calendar-body {
+    padding: 5px;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  .calendar .calendar-weekday,
+  .calendar .calendar-day {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .calendar .calendar-day {
+    margin: 5px;
+  }
 }/*# sourceMappingURL=calendar.css.map */
