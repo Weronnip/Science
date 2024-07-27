@@ -47,7 +47,7 @@
 .calendar .calendar-day.empty {
   background-color: transparent;
 }
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) {
   .calendar {
     top: 100px;
     left: 10px;

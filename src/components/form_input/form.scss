@@ -128,7 +128,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) {
   .title-form {
     top: 100px;
     left: 10px;
