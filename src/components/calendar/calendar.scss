@@ -1,5 +1,5 @@
 .calendar {
-  top: 182px;
+  top: 122px;
   margin: 0;
   left: 128px;
   width: 450px;
@@ -12,11 +12,11 @@
   
   .calendar-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px;
-    background-color: #2F5DD3;
     color: white;
+    align-items: center;
+    background-color: #2F5DD3;
+    justify-content: space-between;
     border-bottom: 1px solid #ccc;
   }
   
@@ -56,34 +56,34 @@
     background-color: transparent;
   }
 
-  @media (min-width: 320px) {
-    top: 100px;
-    left: 10px;
-    width: 300px;
+  // @media (min-width: 320px) {
+  //   top: 100px;
+  //   left: 10px;
+  //   width: 300px;
 
-    .calendar-header {
-      padding: 5px;
-      font-size: 12px;
-    }
+  //   .calendar-header {
+  //     padding: 5px;
+  //     font-size: 12px;
+  //   }
 
-    .title-events {
-      left: 10%;
-      font-size: 16px;
-    }
+  //   .title-events {
+  //     left: 10%;
+  //     font-size: 16px;
+  //   }
 
-    .calendar-body {
-      padding: 5px;
-      grid-template-columns: repeat(7, 1fr);
-    }
+  //   .calendar-body {
+  //     padding: 5px;
+  //     grid-template-columns: repeat(7, 1fr);
+  //   }
 
-    .calendar-weekday,
-    .calendar-day {
-      padding: 5px;
-      font-size: 10px;
-    }
+  //   .calendar-weekday,
+  //   .calendar-day {
+  //     padding: 5px;
+  //     font-size: 10px;
+  //   }
 
-    .calendar-day {
-      margin: 5px;
-    }
-  }
+  //   .calendar-day {
+  //     margin: 5px;
+  //   }
+  // }
 }
